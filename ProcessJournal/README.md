@@ -1,5 +1,7 @@
 # Process Journal
 
+
+
 ## Make a Thing |01.23.25
 For this Make a Thing project, I decided to visualize a short story. I initially wanted to pick a short story from Junji-Ito, however I soon realized how difficult it would be to create it with the tools given. I really wanted to make a platformer game using GB studios, yet my computers anti-virus software would not allow me to open GB studios. So I settled on Bitsy as my choice of creation tools. I then decided to adapt one of my favorite HP Lovecraft stories, “The Outsider”. 
 This is because of its platformer-esque nature and the fact that there is only one character in the whole story. The story is mainly about a man stuck in a large castle, wrestling with his own identity and existence. Once he finally escapes to the real world, he is faced with the fact that he is a monster and shunned by society.
@@ -13,3 +15,33 @@ Playtest thoughts:
 -	Puzzle games are probably not the best games for a small demonstration
 -	I think I made the game too long without having a strong enough narrative
 -	People did not look for hidden walls without me indicating it to them 
+
+
+
+## Exploration Prototype 1 | 01.30.25
+For this exploration, I decided to continue the prototype we made in class. I added a boundary box on the bottom of the game to destroy any game objects that go off. I then added a score board in the top right corner of the screen using the legacy text UI feature. I used the boundary box to keep count of the score. I also changed the sprite of the square to a pop cat and changed the circle prefab to a croissant. 
+I also made the croissants drop slightly faster as time went on by multiplying it with 0.98 very loop and making it have a max drop speed of 0.35. I bounded the pop cat so that it won't go off screen. I also added 3 UI images of the pop cat under the score to illustrate lives of the player. Every time a croissant hits the bound box, one of the images goes away. I intended for this to be the whole game loop, where after the lives of the player are all lost, it would change to the end scene and it'll display their score and have a restart button. 
+Alas, I did not have the time to implement this. I wanted to add sound effects as well (like a crunching sound for when the pop cat eats a croissant) but this seemed rather difficult. I also wanted to explore the camera aspect of unity as well but this game didn't seem like the best prototype for this exploration. With a little more tweaking, this could be a semi-complete game. I'd love to add some background image and music.
+
+
+
+## Pong After Hours | 02.06.25
+In this exploration, I decided to play with lighting. I originally wanted to make the game more difficult while keeping its cooperative nature, but I could not think of anything. I was thinking of adding paddles on the top and bottom of the screen for a 4 player mode / making a difficult 2 player mode, but this seemed like an inefficient exploration.
+Instead, I wanted to make the entire game scene dark and make the ball a source of light. This was easier said than done. I've never really experimented with the lighting in unity before this exploration. I had to learn what URP is and how to make it work as well as figuring out the correct settings for the shader materials.
+
+What I did:
+- Made the entire scene dark using global 2D light
+- Made the pong ball a source of light using the circular freeform 2D light
+- Added a second freeform 2D light to the ball, but used the volumetric aspect to make the ball have a glow
+- Added a scoreboard for each player
+- Put a game object line in the middle if the scene so it makes the balls movement clearer
+- Added 2 end screens (one for left player, one for right player) with a restart button
+- Made a title card for the game with a start and quit button
+  
+Future additions:
+- A pause button to exit or restart the game
+- A quit button on the end screens
+- Fireworks for the end screen
+- More game elements to increase difficulty or make the game more interesting (maybe powerups or additional balls)
+
+![pawngTemplate-Main-WindowsMacLinux-Unity66000.0.34f1_DX11_2025-02-0614-32-23-ezgif.com-crop.gif](pawngTemplate-Main-WindowsMacLinux-Unity66000.0.34f1_DX11_2025-02-0614-32-23-ezgif.com-crop.gif)
