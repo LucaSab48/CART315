@@ -29,7 +29,7 @@ Alas, I did not have the time to implement this. I wanted to add sound effects a
 In this exploration, I decided to play with lighting. I originally wanted to make the game more difficult while keeping its cooperative nature, but I could not think of anything. I was thinking of adding paddles on the top and bottom of the screen for a 4 player mode / making a difficult 2 player mode, but this seemed like an inefficient exploration.
 Instead, I wanted to make the entire game scene dark and make the ball a source of light. This was easier said than done. I've never really experimented with the lighting in unity before this exploration. I had to learn what URP is and how to make it work as well as figuring out the correct settings for the shader materials.
 
-What I did:
+What I did
 - Made the entire scene dark using global 2D light
 - Made the pong ball a source of light using the circular freeform 2D light
 - Added a second freeform 2D light to the ball, but used the volumetric aspect to make the ball have a glow
@@ -38,7 +38,7 @@ What I did:
 - Added 2 end screens (one for left player, one for right player) with a restart button
 - Made a title card for the game with a start and quit button
   
-Future additions:
+Future additions
 - A pause button to exit or restart the game
 - A quit button on the end screens
 - Fireworks for the end screen
