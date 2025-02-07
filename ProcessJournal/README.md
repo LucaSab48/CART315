@@ -34,15 +34,16 @@ What I did:
 - Made the pong ball a source of light using the circular freeform 2D light
 - Added a second freeform 2D light to the ball, but used the volumetric aspect to make the ball have a glow
 - Added a scoreboard for each player
-- Put a game object line in the middle if the scene so it makes the balls movement clearer
+- Put a game object line in the middle of the scene so it makes the balls movement clearer
 - Added 2 end screens (one for left player, one for right player) with a restart button
 - Made a title card for the game with a start and quit button
-  
+
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/pawngTemplate-Main-WindowsMacLinux-Unity66000.0.34f1_DX11_2025-02-0614-32-23-ezgif.com-crop.gif) 
+
 Future additions:
 - A pause button to exit or restart the game
 - A quit button on the end screens
 - Fireworks for the end screen
 - More game elements to increase difficulty or make the game more interesting (maybe powerups or additional balls!)
 
-![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/pawngTemplate-Main-WindowsMacLinux-Unity66000.0.34f1_DX11_2025-02-0614-32-23-ezgif.com-crop.gif)
 ![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/PongAfterHours.p2.gif) 
