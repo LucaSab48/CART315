@@ -44,4 +44,4 @@ Future additions:
 - Fireworks for the end screen
 - More game elements to increase difficulty or make the game more interesting (maybe powerups or additional balls!)
 
-![alt text](https://github.com/LucaSab48/CART315/blob/Test/ProcessJournal/pawngTemplate-Main-WindowsMacLinux-Unity66000.0.34f1_DX11_2025-02-0614-32-23-ezgif.com-crop.gif)
+![alt text](https://github.com/LucaSab48/CART315/blob/Test/ProcessJournal/Images/pawngTemplate-Main-WindowsMacLinux-Unity66000.0.34f1_DX11_2025-02-0614-32-23-ezgif.com-crop.gif)
