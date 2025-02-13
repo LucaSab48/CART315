@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      croissantforreal_0: 5040728393272276078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
