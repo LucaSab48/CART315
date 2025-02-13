@@ -87,10 +87,11 @@ public class BreakoutBall_working : MonoBehaviour
 
         if (other.gameObject.tag == "Brick")
         {
-            int pv = other.gameObject.GetComponent<BrickValue>().pointValue;
-            
-            gameManagement.S.AddPoint(pv);
-            Destroy(other.gameObject);
+            BrickValue brick = other.gameObject.GetComponent<BrickValue>();
+            if (brick != null)
+            {
+                brick.TakeHit();
+            }
         }
 
     }
