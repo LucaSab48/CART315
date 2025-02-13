@@ -47,3 +47,29 @@ Future additions:
 - More game elements to increase difficulty or make the game more interesting (maybe powerups or additional balls!)
 
 ![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/PongAfterHours.p2.gif) 
+
+
+
+## BreakOut Test | 02.13.25
+This week was an unproductive one for my exploration. I was out of ideas and kind of bummed that my pong game is gone. I knew I wanted to re-explore lighting in the game as a sort of revitalization of my pong after hours game, but was struggling to find any new addition that wasn't just repeating the exact same thing. 
+So, I decided to repeat the exact same thing to see if it would generate any new ideas. It did not initially, so I decided to add a trail to the ball because Dorsa's pong game looked pretty cool with it. Then I got an idea to try and make the bricks light up when you hit them. I thought this would be interesting and also allow me to explore lighting for prefabs. 
+I wanted to make it so the light would slowly dissipate as time went on, then allow my ball to relight it. I also wanted it to be destructable only if the light was lit. This was not easy to figure out. I had to turn to the dark side of coding (ChatGPT). But even it couldn't get it working the way I envisioned. 
+It ended up pretty buggy with the bricks only lighting up once then getting destroyed even when unlit. I tried to fix this problem for a while but ran out of time. I did not even have the time to implement a title screen and an end screen.
+What I did:
+- Made the entire scene dark like last time
+- Made teh ball glow like last time
+- Added a trail to the ball to make it look cool
+- Made the bricks light up then slowly fade if the ball hit it
+- Made an end screen on photoshop
+
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/BreakOutGif.gif)
+
+Future Additions:
+- A fully implemented title card and end screen
+- A working version of my idea
+- A pause button and menu
+- Funny sound effects (like Cartman from South Park saying "You're breaking my balls")
+- Particle effects for when the bricks break
+- Score and life count
+- Powerups and maybe a timer?
+- Better sprites and brick placement
