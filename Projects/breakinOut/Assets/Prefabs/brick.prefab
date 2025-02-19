@@ -150,6 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointValue: 1
   fadeDuration: 3
+  explosionEffect: {fileID: 9160512556337476096, guid: 23abe1c40a5a05d4ab3982d4a4fd057e, type: 3}
 --- !u!114 &5473547138226413232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,11 +164,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ComponentVersion: 2
-  m_LightType: 3
+  m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.52
   m_Color: {r: 0.690566, g: 0.35064998, b: 0.25407606, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -186,8 +187,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0, y: -0.00000011920929, z: 0}
-    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+    m_Center: {x: -0.010798305, y: 0.0034460127, z: 0}
+    m_Extent: {x: 0.5972017, y: 0.23023331, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 1
@@ -195,10 +196,18 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffSize: 0
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
-  - {x: -0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: 0.5, z: 0}
-  - {x: -0.5, y: 0.5, z: 0}
+  - {x: -0.60112315, y: -0.18775353, z: 0}
+  - {x: -0.3282175, y: -0.2267873, z: 0}
+  - {x: 0.05689335, y: -0.22074601, z: 0}
+  - {x: 0.32680202, y: -0.21648043, z: 0}
+  - {x: 0.5728649, y: -0.21396533, z: 0}
+  - {x: 0.58640337, y: 0.023394763, z: 0}
+  - {x: 0.5529158, y: 0.20681398, z: 0}
+  - {x: 0.34564102, y: 0.228304, z: 0}
+  - {x: 0.0051361322, y: 0.22741637, z: 0}
+  - {x: -0.3096009, y: 0.23367932, z: 0}
+  - {x: -0.5923695, y: 0.21778725, z: 0}
+  - {x: -0.60710174, y: 0.013753265, z: 0}

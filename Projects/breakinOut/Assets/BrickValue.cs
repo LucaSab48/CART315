@@ -13,6 +13,8 @@ public class BrickValue : MonoBehaviour
     private Light2D brickLight; 
 
     private bool isLit = false; 
+    
+    public ParticleSystem explosionEffect;
 
     void Start()
     {
@@ -55,6 +57,10 @@ public class BrickValue : MonoBehaviour
             hits++;
             if (hits >= 2)
             {
+                if (explosionEffect != null)
+                {
+                    Instantiate(explosionEffect, transform.position, Quaternion.identity);
+                }
                 gameManagement.S.AddPoint(pointValue);
                 Destroy(gameObject);
             }
