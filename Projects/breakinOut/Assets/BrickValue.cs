@@ -1,22 +1,23 @@
 using UnityEngine;
-using UnityEngine.Rendering.Universal;  // Import for Light2D
+using UnityEngine.Rendering.Universal;
 using System.Collections;
 
 public class BrickValue : MonoBehaviour
 {
     public int pointValue = 1;
-    public float fadeDuration = 3f;  // Time for the light to fade
-    private int hits = 0;  // Track how many hits the brick has taken
+    public float fadeDuration = 3f; 
+    private int hits = 0; 
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
+    
+    private Light2D brickLight; 
 
-    // For emitting light
-    private Light2D brickLight;  // 2D Light for glowing effect
+    private bool isLit = false; 
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        brickLight = GetComponent<Light2D>();  // Try to get the Light2D component if it exists
+        brickLight = GetComponent<Light2D>(); 
 
         if (spriteRenderer != null)
         {
@@ -25,36 +26,38 @@ public class BrickValue : MonoBehaviour
 
         if (brickLight != null)
         {
-            brickLight.intensity = 0f;  // Initially, no light
+            brickLight.intensity = 0f; 
         }
     }
 
     public void TakeHit()
     {
-        hits++;
-
-        if (hits == 1)
+        if (!isLit)
         {
-            // Light up the brick with color and light effect
+            
+            hits++;
+            isLit = true;
+
             if (spriteRenderer != null)
             {
-                spriteRenderer.color = Color.yellow;  // Change to lit color
+                spriteRenderer.color = Color.yellow;  
             }
 
-            // Turn on the light
             if (brickLight != null)
             {
-                brickLight.intensity = 1f;  // Full light intensity when lit
+                brickLight.intensity = 1f; 
             }
-
-            // Start fading back to the original color and light intensity
+            
             StartCoroutine(FadeToOriginalColor());
         }
-        else if (hits == 2)
+        else
         {
-            // Break the brick on the second hit if it's still lit
-            gameManagement.S.AddPoint(pointValue);
-            Destroy(gameObject);
+            hits++;
+            if (hits >= 2)
+            {
+                gameManagement.S.AddPoint(pointValue);
+                Destroy(gameObject);
+            }
         }
     }
 
@@ -69,20 +72,17 @@ public class BrickValue : MonoBehaviour
 
             if (spriteRenderer != null)
             {
-                // Interpolate from yellow back to the original color
                 spriteRenderer.color = Color.Lerp(Color.yellow, originalColor, t);
             }
 
             if (brickLight != null)
             {
-                // Fade the light intensity back to 0
                 brickLight.intensity = Mathf.Lerp(1f, 0f, t);
             }
 
-            yield return null;  // Continue the loop over multiple frames
+            yield return null;  
         }
-
-        // After fading back, allow it to be lit again when hit
-        // No need to reset the hits flag, just wait for a new hit to light up again.
+        
+        isLit = false;
     }
 }
