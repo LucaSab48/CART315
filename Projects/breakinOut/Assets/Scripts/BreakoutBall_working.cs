@@ -12,12 +12,15 @@ public class BreakoutBall_working : MonoBehaviour
     public float minSpeed = 2f;
     
     public AudioSource scoreSound, blip;
+    public AudioSource collisionSound; 
     
     
     private int[] dirOptions = {-1, 1};
     private int   hDir;
 
     private bool gameRunning;
+    
+    public TrailRenderer trailRenderer;
     
     // Start is called before the first frame update
     void Start() {
@@ -51,12 +54,17 @@ public class BreakoutBall_working : MonoBehaviour
         ballSpeed = 2;
         transform.position = new Vector2(0, 0);
         gameRunning = false;
+        
     }
     
     // if the ball goes out of bounds
     private void OnCollisionEnter2D(Collision2D other)
     {
-        
+        if (collisionSound != null)
+        {
+            collisionSound.pitch = Random.Range(0.8f, 1.2f);
+            collisionSound.Play();
+        }
         
         // did we hit a wall?
         if (other.gameObject.tag == "Wall")
