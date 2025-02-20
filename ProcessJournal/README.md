@@ -76,3 +76,32 @@ Future Additions:
 
 
 
+## Blind Breaking | 02.20.25
+For my exploration this week, I decided to work on my previous iteration of the breakOut game I did last week. I wanted to continue this project because I was unsatisfied with how the last exploration turned out. So, I tried to implement a few features I discussed about in my last entry.
+I also fixed a bunch of the issues I was having last week, but ran into a few new ones along the way. This exploration has made me realize how making a game is something that doesn't have a definite conclusion. What I mean is that there is always something to add or something to fix. 
+I know this isn't the most profound discovery, but I didn't really grasp the concept of compromising on my ideas until I was doing this exploration. While this isn't a super valuable lesson, it has provided me with the knowledge that its better to have several semi-working implementations than focusing all my time into fien tuning a few implementations. 
+What I did:
+- Fixed the issue of last week, so now the brick lights up then breaks
+- Added a particle system so it seems like the bricks shatter into tiny pieces
+- Adjusted the light around the bricks
+- Added a title card
+- Fully implemented the end card
+- Added a pause screen (hit enter to activate it)
+- Integrated sound effects for the ball
+- Added a life counter
+
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/BlindBreakingGIF1.gif)
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/BlindBreakingGIF3.gif)
+
+Future Additions:
+- Fix the tail renderer issue when the ball resets
+- Make the UI look better, especially the buttons
+- Add a more diverse amount of sound effects
+- More levels
+- Powerups could be cool
+- A winning screen with fireworks
+- Something to keep score
+- Maybe the bricks can have different effects for lighting?
+- A countdown could be cool as well
+
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/BlindBreakingGIF2.gif)
