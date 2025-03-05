@@ -105,3 +105,16 @@ Future Additions:
 - A countdown could be cool as well
 
 ![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/BlindBreakingGIF2.gif)
+
+
+
+## Game Analysis | Titan Souls | 03.06.25
+
+Titan souls is a short boss rush style game that thrives in the simplicity of its mechanics. The game consists of some puzzle-based exploration to find new bosses to beat, leading to a two final big bosses. The reason I chose this game to highlight is because it does not rely on grandiose graphics or complex game mechanics, but only 1 type of attack and and a dodge button.
+The player has only 1 life per boss. The attack mechanic is a bow and arrow that has only one arrow. The player can charge the arrow to shoot, then recall the arrow. Both the shot and teh recalled arrow do damage to enemies. The game essentially forces the player to "get good" with its one option for emitting damage. It approaches avoiding damage in a similar manner, with the dash being the sole option. 
+![alt text]()
+
+Another major mechanical triumph of Titan Souls is the unique mechanics for each boss in the game. This ranges from hazardous environmental attacks to hidden weak points. Lets examine one boss in particular. This being "The Soul" final boss in the game. There are various mechanics at play in this boss fight. Firstly, it is wearing a protective armour almost at all times which prevents it from taking any damage. 
+Secondly, the boss is able to control a large portion of the map utilizing explosive balls of lighting. It also has a copy of your main attack ability. Finally, it has a dash that allows the boss to have great mobility. The trick to this boss fight is hidden within that dash mechanic. As the boss dashes, its body moves out of the invulnerable armor, allowing the player a split second to finish the fight. 
+This boss took me the most attempts to figure out how to fight it and beat it. 
+![alt text]()
