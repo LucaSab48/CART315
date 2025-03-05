@@ -116,5 +116,6 @@ The player has only 1 life per boss. The attack mechanic is a bow and arrow that
 
 Another major mechanical triumph of Titan Souls is the unique mechanics for each boss in the game. This ranges from hazardous environmental attacks to hidden weak points. Lets examine one boss in particular. This being "The Soul" final boss in the game. There are various mechanics at play in this boss fight. Firstly, it is wearing a protective armour almost at all times which prevents it from taking any damage. 
 Secondly, the boss is able to control a large portion of the map utilizing explosive balls of lighting. It also has a copy of your main attack ability. Finally, it has a dash that allows the boss to have great mobility. The trick to this boss fight is hidden within that dash mechanic. As the boss dashes, its body moves out of the invulnerable armor, allowing the player a split second to finish the fight. 
-This boss took me the most attempts to figure out how to fight it and beat it. 
+This boss took me the most attempts to figure out how to fight it and beat it.
+
 ![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/titanSouls2.gif)
