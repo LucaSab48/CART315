@@ -119,3 +119,17 @@ Secondly, the boss is able to control a large portion of the map utilizing explo
 This boss took me the most attempts to figure out how to fight it and beat it.
 
 ![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/titanSouls2.gif)
+
+
+
+## Iterative Prototype 1 | Searching | 03.06.25
+For the exploration this week, I mainly tried figuring out how to use the xbox 360 Kinect with Unity. Unfortunately, my efforts were unsuccessful. Turns out the Kinect V1 needs an external power supply to operate, which I don't have. However, I did find the software necessary for the integration. This being Kinect for Windows SDK. I also found a few tutorials on how to get it working in Unity as well. 
+Even though I lack the necessary hardware to make the Kinect work with Unity, I do have hope for future iterations on this idea. I found out yesterday that the computation lab is equipped with a bunch of Kinect V2s, so I might go pay them a visit soon to try it out. The reason I am working on using the Kinect in Unity is for an installation idea I have. I want to use the Kinect as a messenger between performance and technology. 
+I was thinking of using the Kinect to track the observers body position and depth so that their movements could change an environment I create in Unity. This would be perhaps an exhibition piece for the end of year show or part of my final project for my performance art class. 
+![alt text]()
+
+I also had a group discussion this week for the central ideas for our final project. We have decided to make a more comedic game in the style of Papers Please / Thank Goodness You're Here based on the retail worker experience. While this isn't a concrete plan, it is a great starting off point. We also discussed the division of labour for the game. I am truly thankful to have great teammates with a range of artistic capabilities. 
+My main focus for the game will be the development and game design. So mainly the necessary programming and the game mechanics at play. For the game I have a rough idea for a central loop. I was thinking we could make a game where the main player is a clerk at a retail store where he is in charge of dealing with returns. Similarly to Papers Please, the player will have to determine if the customer is eligible for a return or not. 
+While these are just some quick ideas, I am very excited to begin working on this game. 
+![alt text]()
+![alt text]()
