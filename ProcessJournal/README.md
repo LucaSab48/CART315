@@ -133,3 +133,32 @@ My main focus for the game will be the development and game design. So mainly th
 While these are just some quick ideas, I am very excited to begin working on this game. 
 ![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/PapersPlease.png)
 ![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/ThankGoodnessYoureHere.png)
+
+
+
+## Iterative Prototype 2 | Implementation Prototype | 03.13.25
+This week, our team spent time doing different forms of prototyping to get a general gist of the game as well as some building blocks to begin. My efforts were focused on creating the implementation prototype of our main game style, that being and point and click style game. So, I decided to begin by making a button that can be clicked on. I've never really made a cursor game in Unity before, it has all been controller based. 
+So I tried learning how to make clickable objects inside Unity and found some neat tutorials examining the input system that already exists within the software itself. However, I spent close to 2 hours trying to make a clickable object using this system and for some reason I couldn't figure it out. I think the issue stems from the way I set up the Unity input system, because my code was looking fine. Anyways, I found out that there is a legacy input system that works through more hard coding and used that instead, which made it work perfectly. 
+Since I had a working button, I thought I could continue my exploration by working on the main game loop, which is examining the contents of a suitcase using an x-ray screen and selecting the dangerous objects. I did this by making a screen with a bunch of clickable objects inside that the player could select. I worked on making the clicking feel more responsive, by adding some mouse hover feedback. I also made the button shrink in size when clicked. 
+After making all that work, I decided to make a connection between the two objects. I made it so that only specifically selected items would allow a button click to move onto the next scene. This was more challenging than expected. There were a few oversights on my part when attempting to do this, such as making it so a that it'll only transition to the next scene if all the dangerous items were selected and also that if a safe item was selected the scene wouldn't change. I fixed these issues using two types of tags.
+![alt text]()
+
+After finally getting my prototype to work, I decided to add the sprites my teammate made into the empty scene that appears after the correct items have been selected. I was debating adding it into the working prototype, but I want to discuss with my teammates the way this game will function. Doing this prototype made me really reflect on the whole design of the game. It got me thinking more in depth about how the would really look like.
+For example, I had to think about how the game would change scenes for the player, and what to do if there are no dangerous items. Also, what happens if the player fails? Anyways, its good that we got a start to the look and feel of the game and I can't wait to continue working on it.
+
+What I did:
+- Making a clickable button
+- Making a screen with a bunch of clickable objects
+- Allowing player to select items
+- Giving more responsive feedback when clicking or maneuvering the mouse (i.e. highlighting object in red when selected, making button shrink when clicked, adding hovering feedback)
+- Making a mini game loop where if the correct items are selected, hitting the button would change scenes
+- Adding the sprites my teammate made into the empty scene
+
+![alt text]()
+
+Future Additions:
+- Making a more complete game loop with a better understanding of how the game will work
+- Adding sound effects to make it more responsive
+- Maybe working on making the sprites have function in the following scene
+- Adding dialogue boxes
+- Background music
