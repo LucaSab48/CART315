@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 172378897}
   m_Layer: 0
   m_Name: X-Ray3
-  m_TagString: Untagged
+  m_TagString: SafeItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 177415397}
   m_Layer: 0
   m_Name: X-Ray1
-  m_TagString: Untagged
+  m_TagString: DangerousItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 1144266762}
   m_Layer: 0
   m_Name: X-Ray6
-  m_TagString: Untagged
+  m_TagString: SafeItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1030,6 +1030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76862905a2a81724cb3052d5565cb2bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: PassengerCheck
 --- !u!61 &1346738697
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1160,7 +1161,7 @@ GameObject:
   - component: {fileID: 1398200034}
   m_Layer: 0
   m_Name: X-Ray5
-  m_TagString: Untagged
+  m_TagString: DangerousItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1307,7 +1308,7 @@ GameObject:
   - component: {fileID: 1863783994}
   m_Layer: 0
   m_Name: X-Ray2
-  m_TagString: Untagged
+  m_TagString: SafeItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1454,7 +1455,7 @@ GameObject:
   - component: {fileID: 1977673072}
   m_Layer: 0
   m_Name: X-Ray7
-  m_TagString: Untagged
+  m_TagString: DangerousItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1601,7 +1602,7 @@ GameObject:
   - component: {fileID: 2021589742}
   m_Layer: 0
   m_Name: X-Ray4
-  m_TagString: Untagged
+  m_TagString: SafeItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

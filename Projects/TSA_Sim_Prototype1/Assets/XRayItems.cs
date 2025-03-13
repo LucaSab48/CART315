@@ -4,7 +4,7 @@ public class XRayItem : MonoBehaviour
 {
     private Color _originalColor;
     private SpriteRenderer _spriteRenderer;
-    private bool _isMarked = false;
+    public bool IsMarked { get; private set; } = false;
 
     private void Awake()
     {
@@ -14,18 +14,17 @@ public class XRayItem : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        _spriteRenderer.color = _isMarked ? Color.red : Color.white; // Highlight effect
+        _spriteRenderer.color = IsMarked ? Color.red : Color.white;
     }
 
     private void OnMouseExit()
     {
-        _spriteRenderer.color = _isMarked ? Color.red : _originalColor; // Reset color when mouse leaves
+        _spriteRenderer.color = IsMarked ? Color.red : _originalColor; 
     }
 
     private void OnMouseDown()
     {
-        _isMarked = !_isMarked; // Toggle state
-        _spriteRenderer.color = _isMarked ? Color.red : _originalColor; // Change color accordingly
-        Debug.Log($"{gameObject.name} is now {(_isMarked ? "marked as suspicious" : "cleared")}!");
+        IsMarked = !IsMarked;
+        _spriteRenderer.color = IsMarked ? Color.red : _originalColor;
     }
 }
