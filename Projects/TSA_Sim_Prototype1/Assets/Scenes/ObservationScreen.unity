@@ -179,7 +179,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.89433956, g: 0.88252753, b: 0.88252753, a: 0.39215687}
   m_FlipX: 0
@@ -740,16 +740,22 @@ MonoBehaviour:
   - {fileID: 7860777805058425531, guid: abc0f3106b362f34194d4ba812e19409, type: 3}
   - {fileID: 8405233537568350538, guid: f933d2b185a6d9b44b0067c9d66bca25, type: 3}
   - {fileID: 2383347866573952973, guid: d45abf2179b2cda4f849e44314a65140, type: 3}
+  - {fileID: 4514711891777693565, guid: 960c6b7d87288d74790e1cbfbfc2f70a, type: 3}
+  - {fileID: 447334091623859894, guid: 6e1de88c8268b7040be65ae5ba9487ed, type: 3}
+  - {fileID: 1279376601187439756, guid: 2aee9176e5c858b4f8d926bdd334fb20, type: 3}
   dangerousItems:
   - {fileID: 8221469478343228500, guid: b05375e0ecc04f64794bc51ec1857b62, type: 3}
   - {fileID: 8324723075923293150, guid: 2abdaaa8f11b4bf418046fa3f08e527a, type: 3}
   - {fileID: 8263871866732312072, guid: 9730cb979fe7ebd49bf4ad17645707e6, type: 3}
+  - {fileID: 5387236639486011394, guid: 8eee638459444844f8c7c049e3fe97f6, type: 3}
+  - {fileID: 5595817650001208440, guid: cd354786fb1b80e44885fb9f6bb85b96, type: 3}
+  - {fileID: 425844667468752395, guid: a03c0c14837c0cd4b8abc6d3c2f8d5a4, type: 3}
   spawnArea: {fileID: 1924696985}
   minItems: 5
   maxItems: 7
   maxDangerousItems: 2
-  spawnWidth: 7.5
-  spawnHeight: 4.5
+  spawnWidth: 7.4
+  spawnHeight: 4.3
   minSpawnDistance: 1.5
 --- !u!4 &1924696985
 Transform:

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1439245712610512774}
   m_Layer: 0
   m_Name: X-Ray6
-  m_TagString: SafeItem
+  m_TagString: DangerousItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

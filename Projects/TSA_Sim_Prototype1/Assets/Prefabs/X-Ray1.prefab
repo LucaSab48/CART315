@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3376480658058544105}
   m_Layer: 0
   m_Name: X-Ray1
-  m_TagString: DangerousItem
+  m_TagString: SafeItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 5719414464074435865}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.2363269, w: -0.9716736}
-  m_LocalPosition: {x: -3.8222, y: -7.5065, z: 0}
-  m_LocalScale: {x: 0.2011, y: 0.2011, z: 0.2011}
+  m_LocalPosition: {x: -3.6061, y: -8.3504, z: 0}
+  m_LocalScale: {x: 0.09155886, y: 0.09439265, z: 0.10573838}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
