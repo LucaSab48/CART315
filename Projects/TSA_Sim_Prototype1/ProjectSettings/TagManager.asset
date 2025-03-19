@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DangerousItem
   - SafeItem
+  - XRayItem
   layers:
   - Default
   - TransparentFX

@@ -1,16 +1,16 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public string nextSceneName; // Set this in the Inspector
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.CompareTag("SafeItem") || other.CompareTag("DangerousItem")) // Ensure your suitcase GameObjects are tagged as "Suitcase"
+        {
+            Debug.Log("Suitcase entered trigger, changing scene...");
+            SceneManager.LoadScene(nextSceneName);
+        }
     }
 }
