@@ -163,3 +163,31 @@ Future Additions:
 - Maybe working on making the sprites have function in the following scene
 - Adding dialogue boxes
 - Background music
+
+
+
+## Iterative Prototype 3 | Further Implementation | 03.20.25
+This was a rough week for advancing the previous prototype. After convening in class, our group had a more clear idea where to expand on to advance this project. My main goal for this week was to try and make a complete game loop starting off from our current prototype. So, I started off by working on the passenger check scene (scene with conveyer belt). I wanted to make it working in some capacity, so i made the buttons capable of moving a suitcase. I then wanted the suitcases to automatically spawn at the start of the scene and when the user pushes the suitcase off the screen. Since Dorsa made 5 sprites of suitcases, I wanted to randomize what sprites would show up and prevent doubles from spawning. 
+After getting this working, I added another collision box to let the suitcases change scene when they reach a certain point. I initially used the same tags as i have in the x-ray screen scene to do this, but then opted to make a new tag for suitcases specifically for future uses. I was thinking I could make one of the suitcases dangerous and if the player lets that person on the plane then it would crash. I have to talk to my team about this idea however. I then turned my attention back to the x-ray screen scene. In class, we discussed making the objects randomize onto the suitcase, so thats what i decided to implement first. Dorsa made a bunch of sprites for the items, so I made two lists; one for safe items and one for dangerous items. 
+I then spawned these items randomly between a certain public int range and position them randomly as well. I decided to add a cap on the amount of dangerous items possible and also a minimum distance the items would have to spawn away from the previously spawned item. This all ended up working fine. 
+
+![alt text]()
+
+After this is when everything starting going downhill. The next step I wanted to work on was making the suitcase respawn in the exact spot it was left off in the previous scene. I could not for the life of me figure out how to do this. I tried putting the prefabs in the DontDestroyOnLoad but this would cause the prefabs to load onto the next scene. So, I tried saving the data on a singleton data script, but even after it would save the position and sprite, I was not able to instantiate it into the reloaded scene. I basically threw myself against a brick wall for the past 2 days. Nothing I try works, I've tried toggling the object off when switching scenes, I tried to turn off the collider that changes scenes (because i thought that it was preventing the prefab from spawning), and many more attempts.
+While writing this I got another idea to try, maybe if i just hard code the position it'll be easier to instantiate. But then I would still need to remember what suitcase sprite was used. Anywho, this is where I'm at. Hopefully my teammates can help me today to solve this issue. 
+
+What I did:
+- Made the buttons on conveyer belt work
+- Made a suitcase spawner with an exit point
+- Made a trigger to change scenes to x-ray machine
+- Made the items inside suitcase be randomized 
+- Made the randomized objects in the suitcase have a cap and min distance between each other
+
+![alt text]()
+
+Future Additions:
+- Making the dang respawn work
+- Making it so hitting the exit point increases a progression bar
+- Making a full game cycle
+- Adding more pizazz to the x-ray screen (approve and deny button)
+- Maybe working on dialogue?

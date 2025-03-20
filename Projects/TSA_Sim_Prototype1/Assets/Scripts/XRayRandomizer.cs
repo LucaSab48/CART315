@@ -11,9 +11,9 @@ public class XRayRandomizer : MonoBehaviour
     public int maxItems = 6;
     public int maxDangerousItems = 2;
 
-    public float spawnWidth = 5f;  // Width of the spawn area
-    public float spawnHeight = 3f; // Height of the spawn area
-    public float minSpawnDistance = 1f; // Minimum distance between spawned items
+    public float spawnWidth = 5f; 
+    public float spawnHeight = 3f; 
+    public float minSpawnDistance = 1f; 
 
     private List<GameObject> spawnedItems = new List<GameObject>();
 
@@ -58,7 +58,7 @@ public class XRayRandomizer : MonoBehaviour
 
     Vector2 GetValidRandomPosition()
     {
-        int maxAttempts = 10; // Maximum attempts to find a valid position
+        int maxAttempts = 10;
         for (int attempt = 0; attempt < maxAttempts; attempt++)
         {
             Vector2 randomPosition = new Vector2(
@@ -66,7 +66,6 @@ public class XRayRandomizer : MonoBehaviour
                 Random.Range(spawnArea.position.y - spawnHeight / 2, spawnArea.position.y + spawnHeight / 2)
             );
 
-            // Check if this position is far enough from existing items
             bool valid = true;
             foreach (GameObject item in spawnedItems)
             {
@@ -81,7 +80,6 @@ public class XRayRandomizer : MonoBehaviour
                 return randomPosition;
         }
 
-        // If all attempts fail, return a random position anyway (fallback)
         return new Vector2(
             Random.Range(spawnArea.position.x - spawnWidth / 2, spawnArea.position.x + spawnWidth / 2),
             Random.Range(spawnArea.position.y - spawnHeight / 2, spawnArea.position.y + spawnHeight / 2)

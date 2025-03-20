@@ -12,10 +12,10 @@ public class SuitcaseManager : MonoBehaviour
 
     void Start()
     {
-        SpawnNewSuitcase();
+        SpawnSuitcase();
     }
 
-    public void SpawnNewSuitcase()
+    public void SpawnSuitcase()
     {
         if (currentSuitcase != null)
         {
@@ -48,7 +48,7 @@ public class SuitcaseManager : MonoBehaviour
     {
         if (currentSuitcase != null && currentSuitcase.transform.position.x > exitPoint.position.x)
         {
-            SpawnNewSuitcase();
+            SpawnSuitcase();
         }
     }
 }

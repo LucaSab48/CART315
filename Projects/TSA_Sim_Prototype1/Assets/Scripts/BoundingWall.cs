@@ -9,7 +9,7 @@ public class BoundingWall : MonoBehaviour
         if (other.CompareTag("DangerousSuitcase") || other.CompareTag("SafeSuitcase"))
         {
             Destroy(other.gameObject);
-            suitcaseSpawner.SpawnNewSuitcase();
+            suitcaseSpawner.SpawnSuitcase();
         }
     }
 }

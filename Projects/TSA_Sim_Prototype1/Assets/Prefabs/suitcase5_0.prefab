@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1054475488096900696}
   - component: {fileID: -4323628970349005252}
   - component: {fileID: 2311497671627224713}
+  - component: {fileID: 5055882956679986761}
   m_Layer: 0
   m_Name: suitcase5_0
   m_TagString: SafeSuitcase
@@ -209,3 +210,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 7.42, y: 6.08}
   m_EdgeRadius: 0
+--- !u!114 &5055882956679986761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8773629181982523333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06ed1a22a34139d48bb4b8cc63f9855e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectIndex: 0
