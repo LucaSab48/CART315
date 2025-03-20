@@ -23,8 +23,7 @@ public class SuitcaseManager : MonoBehaviour
         }
 
         int randomIndex;
-
-        // Prevent duplicate spawn if enabled
+        
         if (preventDuplicateSpawn && suitcasePrefabs.Length > 1)
         {
             do
@@ -38,15 +37,11 @@ public class SuitcaseManager : MonoBehaviour
         }
 
         lastSpawnedIndex = randomIndex;
-
-        // Instantiate the new suitcase
+        
         currentSuitcase = Instantiate(suitcasePrefabs[randomIndex], spawnPoint.position, Quaternion.identity);
-
-        // Randomly assign danger status
+        
         bool isDangerous = Random.value < 0.2f;
-        currentSuitcase.tag = isDangerous ? "DangerousItem" : "SafeItem";
-
-        Debug.Log(isDangerous ? "Spawned a Dangerous Suitcase" : "Spawned a Safe Suitcase");
+        currentSuitcase.tag = isDangerous ? "DangerousSuitcase" : "SafeSuitcase";
     }
 
     private void Update()

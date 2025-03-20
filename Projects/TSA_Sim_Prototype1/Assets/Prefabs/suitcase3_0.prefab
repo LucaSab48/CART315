@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1618176846911139879}
   m_Layer: 0
   m_Name: suitcase3_0
-  m_TagString: Untagged
+  m_TagString: DangerousSuitcase
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
