@@ -206,16 +206,19 @@ This week was frustrating. I worked a lot on making a functional game loop but h
 However, there was a major bug i could not resolve for the life of me. The suitcase would persistently move by itself after switching back "scenes" and I still don't understand why. I think its because the suitcase would hold its velocity after turning back on because of its rigid body but I tried removing it. tried to make it toggle on and off, tried checking to see if the game is continously detecting a mouse input, tried to force the position of the suitcase when respawning, etc etc. 
 I finally got a working version of the game but it required me to change the way the suitcase moves. Now it moves a preset distance each time the button is clicked. I think this could present new opportunities, like making a dialogue interaction with the passenger at these positions. So once I got this working version, I decided to just make a complete game loop. I did not have much time but I made it so that suitcases stop spawning after 5 have been checked and I made an airplane fly in the background after the 5 are done. 
 
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/TSASimPrototypeGIF3.gif)
+
 What I did:
 - Fixed the issue from last week
 - Made a somewhat complete loop of the game
 - Made suitcases stop spawning after 5
 - Made the airplane fly in the background after suitcases are done being checked
+- Added some sprites into the game to see what it looked like
 
-![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/TSASimPrototypeGIF3.gif)
+![alt text]()
 
 Future Additions:
-- Adding the decision game mechanio
+- Adding the decision game mechanic
 - Adding dialogue
 - Adding sound fx
 - Making a title card and an end screen
