@@ -215,7 +215,7 @@ What I did:
 - Made the airplane fly in the background after suitcases are done being checked
 - Added some sprites into the game to see what it looked like
 
-![alt text]()
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/TSASimPrototypeSC2.png)
 
 Future Additions:
 - Adding the decision game mechanic
