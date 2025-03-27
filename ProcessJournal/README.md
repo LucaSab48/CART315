@@ -191,3 +191,33 @@ Future Additions:
 - Making a full game cycle
 - Adding more pizazz to the x-ray screen (approve and deny button)
 - Maybe working on dialogue?
+
+
+
+## Iterative Prototype 4 | Even More Implementation | 03.27.25
+
+Ideas for game:
+- Informative video to start the game. 
+- Airplane crashing if bad suitcase goes through
+- Elevator music as background music
+
+
+This week was frustrating. I worked a lot on making a functional game loop but had to compromise. So I first fixed the issue from last week using the suggestions I got in class. I made the scenes into one scene. That switch was't as easy to implement as I thought unfortunately. So there was a lot of debugging and fixing many issues, such as the scene objects automatically switching on and off, the layering of the sprites messing things up, and a few other minor bugs.
+However, there was a major bug i could not resolve for the life of me. The suitcase would persistently move by itself after switching back "scenes" and I still don't understand why. I think its because the suitcase would hold its velocity after turning back on because of its rigid body but I tried removing it. tried to make it toggle on and off, tried checking to see if the game is continously detecting a mouse input, tried to force the position of the suitcase when respawning, etc etc. 
+I finally got a working version of the game but it required me to change the way the suitcase moves. Now it moves a preset distance each time the button is clicked. I think this could present new opportunities, like making a dialogue interaction with the passenger at these positions. So once I got this working version, I decided to just make a complete game loop. I did not have much time but I made it so that suitcases stop spawning after 5 have been checked and I made an airplane fly in the background after the 5 are done. 
+
+What I did:
+- Fixed the issue from last week
+- Made a somewhat complete loop of the game
+- Made suitcases stop spawning after 5
+- Made the airplane fly in the background after suitcases are done being checked
+
+![alt text]()
+
+Future Additions:
+- Adding the decision game mechanio
+- Adding dialogue
+- Adding sound fx
+- Making a title card and an end screen
+- Making a pause button
+- A bunch of stuff honestly 
