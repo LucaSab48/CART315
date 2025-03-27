@@ -212,7 +212,7 @@ What I did:
 - Made suitcases stop spawning after 5
 - Made the airplane fly in the background after suitcases are done being checked
 
-![alt text]()
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/TSASimPrototypeGIF3.gif)
 
 Future Additions:
 - Adding the decision game mechanio
