@@ -240,7 +240,7 @@ That was my next step to work on. So i made the passenger game objects draggable
 I had to make the first passenger in line move to a specific desired location and the rest of the other passengers in line shift up a bit. Unfortunately I could not get this to work in the wya I wanted to. I tried pretty hard but there was a persistent bug that I could not figure out. For some reason, it seems like the second indexed game object would always be skipped. I initially thought that i just set up the game object or game manager wrong, but when i remade or removed them the bug persisted. So I kept working on my for loops and my indexing of the passengers but it just wouldn't work.
 So here we are, end of the semester, final projects piling on, and I feel like I'm spending way too much time working on this. For next week, I'm just gonna try my best to make a full game loop but I doubt I'll have it working. 
 
-![alt text]()
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/TSASimPrototypeGIF4.gif)
 
 What I did:
 - Made passengers associate with suitbags
