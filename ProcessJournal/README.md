@@ -224,3 +224,36 @@ Future Additions:
 - Making a title card and an end screen
 - Making a pause button
 - A bunch of stuff honestly 
+
+
+
+## Iterative Prototype 4 | Struggle is Real | 04.03.25
+
+Playtest notes from last class:
+- Add a timer or number of chances to introduce an element of agency
+- Clean up the x-ray screen
+- Make the goal of the game more clear 
+- Make the dangerous objects more clear
+
+This week was a doozy. I was very focused on making it possible for the player to decide whether the passenger of the plane could get on or get off. I also wanted it so that some passengers would be labeled as dangerous or as safe. Since I already tag the suitcases as dangerous or safe, I thought I could associate the passengers with the specific suitcase. This actually seemed to work. So the way we decided to let the player choose the fate of the passengers was by letting them drag the game object to an exit or board sign. 
+That was my next step to work on. So i made the passenger game objects draggable, only in the x position. And I made the exit and board sign locations, so that if the passenger is at that  x position they would be destroyed. I also had to work on making the only the first passenger in line be clickable. I got all of this working somehow, but it did not end there. My team wanted the passengers to move as well. So, I spent the rest of my time trying to make that work. Turns out its way harder than it sounds (which is like always the case lol).
+I had to make the first passenger in line move to a specific desired location and the rest of the other passengers in line shift up a bit. Unfortunately I could not get this to work in the wya I wanted to. I tried pretty hard but there was a persistent bug that I could not figure out. For some reason, it seems like the second indexed game object would always be skipped. I initially thought that i just set up the game object or game manager wrong, but when i remade or removed them the bug persisted. So I kept working on my for loops and my indexing of the passengers but it just wouldn't work.
+So here we are, end of the semester, final projects piling on, and I feel like I'm spending way too much time working on this. For next week, I'm just gonna try my best to make a full game loop but I doubt I'll have it working. 
+
+![alt text]()
+
+What I did:
+- Made passengers associate with suitbags
+- Passengers are now clickable.
+- They can be dragged to either the board or exit sign to be assigned.
+- They can somewhat move in the way i want them to.\
+
+Future Additions:
+- Fixing my bug hopefully
+- Making a plane crash in the background
+- Sound effects
+- More interaction and user feedback
+- Progress bar
+- Title card
+- End Card
+- Literally anything I can manage to do :(
