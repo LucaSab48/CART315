@@ -227,7 +227,7 @@ Future Additions:
 
 
 
-## Iterative Prototype 4 | Struggle is Real | 04.03.25
+## Iterative Prototype 5 | Struggle is Real | 04.03.25
 
 Playtest notes from last class:
 - Add a timer or number of chances to introduce an element of agency
@@ -246,7 +246,7 @@ What I did:
 - Made passengers associate with suitbags
 - Passengers are now clickable.
 - They can be dragged to either the board or exit sign to be assigned.
-- They can somewhat move in the way i want them to.\
+- They can somewhat move in the way i want them to.
 
 Future Additions:
 - Fixing my bug hopefully
@@ -257,3 +257,49 @@ Future Additions:
 - Title card
 - End Card
 - Literally anything I can manage to do :(
+
+
+
+## Final Iterative Prototype | TSA Simulator Semi-Completed | 04.17.25
+
+Playtest from final class:
+- Not clear enough for dragging passengers
+- No real challenge for the game
+- Plane departs even if there are no passengers
+- Fix the spacing in title screen
+- Make it so that you can progress even if you click the wrong items in x-ray screen
+- Adding a huge list of rules to emphasize the satirical nature of the game.
+- Fix occuring movement bugs (sometimes suitcase freezes and stops progression of the game)
+- Fx game so if user spams buttons it won't mess up the sequence of events
+
+So its finally done. We made it to the end of the semester and have a semi-complete game that achieved our set out intentions. While I know this prototype has some issues (evident from the playtest notes), I am proud of what I achieved for this prototype. I've made a platformer before and a 2D top down style game as well, so this game was uncharted territory. I've learned a lot about how to make objects move depending on specific events, solving bugs and large issues as they come up, and trying to manage working in a team. 
+I have this  problem I notice every time I work in a group, and that is taking on a bigger burden than the rest. Usually I'm fine with it, but honestly I found my workload for this project to be too much. It's easy to blame the other team members for it, but honestly it's my own fault. I could've reached out and asked them to share the workload, but I didn't. However, I will take this as a learning lesson for future group projects and learn from my mistakes. After the final playtest, my team really wanted me to update the game considering the playtest notes.
+While I do agree, I'm pretty burnt out. So we did some minor changes and I exported the game to be playable. I know they really wanted me to make it so that users can make mistakes in the x-ray screen, and I do agree that it would make the game better, but this is simply a larger endeavour that I'm unwilling to take on. It would require basically changing how I made the whole x-ray screen work. It's also just frustrating for me to change this because I asked my group like 4 weeks ago if they wanted to let players make mistakes during that scene or not and they said to not let them make mistakes. 
+This process has really taught me about working in a group to make a game. While there were some tough moments and disagreements, it's a valuable experience that'll aid me for future group projects. I know now to ask for help when needed and to not be afraid to share the workload. So, the TSA Simulator prototype has reached its conclusion for this semester and I just want to say thank you for this class.
+
+![alt text]()
+
+What I did:
+- Got the movement working how I want it to (few minor bugs)
+- Made it so the player has to do things in specific order (cant drag player before suitcase has reached specific point, suitcase moves on its own after passenger is boarded or exited)
+- Made it so theres two end states (plane flying up if everyone is safe, plane crashing if dangerous passenger is boarded)
+- Added end screen for each ending and made the game restart after 2 seconds
+- Put in background music Dorsa found into the game and also crashing and taking off sound effects for the ending plane
+- Tried fixing as many bugs as I could find (playtest showed more bugs lmao)
+- Hanif made the button and list asset and made it expand.
+- Exported game so it can be played using a link or on github
+
+![alt text]()
+
+Future Additions:
+- Making a better end screen.
+- Adding more sound effects and user interaction.
+- Making the sequence of events flow better and fixing bugs found.
+- Letting the user make mistakes during the x-ray screen.
+- Associating dangerous items with dangerous passengers.
+- Basically just making a better game.
+- Honestly just gonna work on a new game.
+
+![alt text]()
+
+
