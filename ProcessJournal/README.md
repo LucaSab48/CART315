@@ -277,7 +277,7 @@ I have this  problem I notice every time I work in a group, and that is taking o
 While I do agree, I'm pretty burnt out. So we did some minor changes and I exported the game to be playable. I know they really wanted me to make it so that users can make mistakes in the x-ray screen, and I do agree that it would make the game better, but this is simply a larger endeavour that I'm unwilling to take on. It would require basically changing how I made the whole x-ray screen work. It's also just frustrating for me to change this because I asked my group like 4 weeks ago if they wanted to let players make mistakes during that scene or not and they said to not let them make mistakes. 
 This process has really taught me about working in a group to make a game. While there were some tough moments and disagreements, it's a valuable experience that'll aid me for future group projects. I know now to ask for help when needed and to not be afraid to share the workload. So, the TSA Simulator prototype has reached its conclusion for this semester and I just want to say thank you for this class.
 
-![alt text]()
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/TSASimGIFSafePlane.gif)
 
 What I did:
 - Got the movement working how I want it to (few minor bugs)
@@ -289,7 +289,7 @@ What I did:
 - Hanif made the button and list asset and made it expand.
 - Exported game so it can be played using a link or on github
 
-![alt text]()
+![alt text](https://github.com/LucaSab48/CART315/blob/main/ProcessJournal/Images/TSASimGIFPlaneCrash.gif)
 
 Future Additions:
 - Making a better end screen.
